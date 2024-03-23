@@ -31,57 +31,109 @@ function constructor_obj_text(text) {
     for (let i = 0; i < text.length; i++) {
         let letra = text[i].toLowerCase();
         if (letra == "a") {
-            object.a = object.a++;
+            aux=object.a;
+            aux++;
+            object.a = aux;
         } else if (letra == "b") {
-            object.b = object.b++;
+            aux=object.b;
+            aux++;
+            object.b = aux;
         } else if (letra == "c") {
-            object.c = object.c++;
+            aux=object.c;
+            aux++;
+            object.c = aux;
         }else if (letra == "d") {
-            object.d = object.d++;
+            aux=object.d;
+            aux++;
+            object.d = aux;
         }else if (letra == "e") {
-            object.e = object.e++;
+            aux=object.e;
+            aux++;
+            object.e = aux;
         }else if (letra == "f") {
-            object.f = object.f++;
+            aux=object.f;
+            aux++;
+            object.f = aux;
         }else if (letra == "g") {
-            object.g = object.g++;
+            aux=object.g;
+            aux++;
+            object.g = aux;
         }else if (letra == "h") {
-            object.h = object.h++;
+            aux=object.h;
+            aux++;
+            object.h = aux;
         }else if (letra == "i") {
-            object.i = object.i++;
+            aux=object.i;
+            aux++;
+            object.i = aux;
         }else if (letra == "j") {
-            object.j = object.j++;
+            aux=object.j;
+            aux++;
+            object.j = aux;
         }else if (letra == "k") {
-            object.k = object.k++;
+            aux=object.k;
+            aux++;
+            object.k = aux;
         }else if (letra == 'l') {
-            object.a = object.a++;
+            aux=object.l;
+            aux++;
+            object.l = aux;
         }else if (letra == "m") {
-            object.m = object.m++;
+            aux=object.m;
+            aux++;
+            object.m = aux;
         }else if (letra == "n") {
-            object.n = object.n++;
+            aux=object.n;
+            aux++;
+            object.n = aux;
         }else if (letra == "o") {
-            object.o = object.o++;
+            aux=object.o;
+            aux++;
+            object.o = aux;
         }else if (letra == "p") {
-            object.p = object.p++;
+            aux=object.p;
+            aux++;
+            object.p = aux;
         }else if (letra == "q") {
-            object.q = object.q++;
+            aux=object.q;
+            aux++;
+            object.q = aux;
         }else if (letra == "r") {
-            object.r = object.r++;
+            aux=object.r;
+            aux++;
+            object.r = aux;
         }else if (letra == "s") {
-            object.s = object.s++;
+            aux=object.s;
+            aux++;
+            object.s = aux;
         }else if (letra == "t") {
-            object.t = object.t++;
+            aux=object.t;
+            aux++;
+            object.t = aux;
         }else if (letra == "u") {
-            object.u = object.u++;
+            aux=object.u;
+            aux++;
+            object.u = aux;
         }else if (letra == "v") {
-            object.v = object.v++;
+            aux=object.v;
+            aux++;
+            object.v = aux;
         }else if (letra == "w") {
-            object.x = object.x++;
+            aux=object.w;
+            aux++;
+            object.w = aux;
         }else if (letra == "x") {
-            object.x = object.x++;
+            aux=object.x;
+            aux++;
+            object.x = aux;
         }else if (letra == "y") {
-            object.y = object.y++;
+            aux=object.y;
+            aux++;
+            object.y = aux;
         }else if (letra == "z") {
-            object.z = object.z++;
+            aux=object.z;
+            aux++;
+            object.z = aux;
         }
     }
     console.log(object);
